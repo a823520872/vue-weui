@@ -1,7 +1,8 @@
 <template>
     <div id="app">
-        <img alt="Vue logo" src="./assets/logo.png" />
         <we-button type="primary">button</we-button>
+        <we-button type="primary" loading>button</we-button>
+        <we-button type="primary" disabled>button</we-button>
     </div>
 </template>
 
